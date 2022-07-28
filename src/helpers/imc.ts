@@ -14,7 +14,7 @@ export const levels:Level[] =[
     {title: 'Sobrepeso', color: '#E2B039', icon:'down', imc: [25,30]},
     {title: 'Obesidade grau 1', color: '#ff0101', icon: 'down',imc: [30.1, 34]},
     {title: 'Obesidade grau 2', color: '#b40001', icon: 'down',imc: [35.0, 39.9]},
-    {title: 'Obesidade grau 3', color: '#640000', icon: 'down',imc: [40.0, 99.9]}
+    {title: 'Obesidade grau 3', color: '#640000', icon: 'down',imc: [40.0, 99.9] }
 
 ];
 
