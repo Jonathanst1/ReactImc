@@ -1,2 +1,2 @@
 
-Projeto para calcular o imc, feito com Typescript e Reactjs.
+Calculadora de IMC, com Reactjs + Typescript!.
