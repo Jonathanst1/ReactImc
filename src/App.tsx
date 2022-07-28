@@ -3,6 +3,7 @@ import styles from  './App.module.css'
 import powerdImage from './assets/powered.png'
 import{levels, calculateImc, Level} from './helpers/imc'
 import {GridItem} from './components/Griditem'
+import leftArrowIMage from './assets/leftarrow.png';
 
 const App =() => {
 
@@ -20,6 +21,14 @@ const App =() => {
     }
   }
 
+  const handleBackButton = () => {
+    setToshow(null);
+    setHeightField(0);
+    setWeightField(0);
+   
+    
+  }
+  
 
   return (
     <div className={styles.main}>
@@ -70,7 +79,10 @@ const App =() => {
       }
       {toShow &&
         <div className={styles.rightBig}> 
-        <div className={styles.rightArrow}></div>
+        <div className={styles.rightArrow} onClick={handleBackButton}>
+        <img src={leftArrowIMage} alt="" width={25}/>
+
+        </div>
           <GridItem item={toShow}/>
            </div>
       
